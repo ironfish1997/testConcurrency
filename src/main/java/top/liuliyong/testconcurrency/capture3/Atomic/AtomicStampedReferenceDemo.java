@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicStampedReference;
  * @Date: 2019/11/12 下午3:14
  */
 public class AtomicStampedReferenceDemo {
-    static AtomicStampedReference<Integer> money = new AtomicStampedReference<>(19, 0);
+    private static AtomicStampedReference<Integer> money = new AtomicStampedReference<>(19, 0);
 
     public static void main(String[] args) {
         //模拟多个线程同时更新后台数据库，为用户充值
@@ -53,7 +53,7 @@ public class AtomicStampedReferenceDemo {
                     }
                     try {
                         Thread.sleep(100);
-                    } catch (InterruptedException e) {
+                    } catch (InterruptedException ignored) {
                     }
                 }
             }
