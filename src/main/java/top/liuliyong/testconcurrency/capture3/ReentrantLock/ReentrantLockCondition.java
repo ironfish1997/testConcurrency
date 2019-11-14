@@ -8,8 +8,8 @@ import java.util.concurrent.locks.ReentrantLock;
  * @Date: 2019/11/8 下午3:20
  */
 public class ReentrantLockCondition implements Runnable {
-    public static ReentrantLock lock = new ReentrantLock();
-    public static Condition condition = lock.newCondition();
+    private static ReentrantLock lock = new ReentrantLock();
+    private static Condition condition = lock.newCondition();
 
     @Override
     public void run() {
