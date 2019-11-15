@@ -10,18 +10,18 @@ public class InterruptDemo {
             @Override
             public void run() {
                 while (true) {
-                    if (Thread.currentThread().isInterrupted()) {
+                    if (isInterrupted()) {
                         System.out.println("Interrupted!");
                         break;
                     }
                     try {
-                        Thread.sleep(2000);
+                        Thread.sleep(10000);
                     } catch (InterruptedException e) {
                         System.out.println("Interrupted While Sleeping");
                         //设置中断状态,重点!!!!!
-                        Thread.currentThread().interrupt();
+                        interrupt();
                     }
-                    Thread.yield();
+                    yield();
                 }
             }
         };
