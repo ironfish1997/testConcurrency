@@ -1,4 +1,4 @@
-package top.liuliyong.testconcurrency.capture3.Atomic;
+package top.liuliyong.testconcurrency.chapter3.atomic;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;

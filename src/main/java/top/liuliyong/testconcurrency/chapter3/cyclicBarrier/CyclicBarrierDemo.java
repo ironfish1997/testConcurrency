@@ -1,4 +1,4 @@
-package top.liuliyong.testconcurrency.capture3.CyclicBarrier;
+package top.liuliyong.testconcurrency.chapter3.cyclicBarrier;
 
 import java.util.Random;
 import java.util.concurrent.BrokenBarrierException;

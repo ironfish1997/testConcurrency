@@ -1,4 +1,4 @@
-package top.liuliyong.testconcurrency.capture3.testThreadPool;
+package top.liuliyong.testconcurrency.chapter3.testThreadPool;
 
 import java.util.concurrent.*;
 

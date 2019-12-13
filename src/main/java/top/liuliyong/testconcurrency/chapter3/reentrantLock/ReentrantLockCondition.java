@@ -1,4 +1,4 @@
-package top.liuliyong.testconcurrency.capture3.ReentrantLock;
+package top.liuliyong.testconcurrency.chapter3.reentrantLock;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;

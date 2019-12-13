@@ -1,4 +1,4 @@
-package top.liuliyong.testconcurrency.capture3.baseOperation;
+package top.liuliyong.testconcurrency.chapter3.baseOperation;
 
 /**
  * @Author: Liyong.liu

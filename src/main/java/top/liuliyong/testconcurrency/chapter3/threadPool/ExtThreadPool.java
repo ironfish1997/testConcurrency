@@ -1,4 +1,4 @@
-package top.liuliyong.testconcurrency.capture3.ThreadPool;
+package top.liuliyong.testconcurrency.chapter3.threadPool;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.LinkedBlockingQueue;

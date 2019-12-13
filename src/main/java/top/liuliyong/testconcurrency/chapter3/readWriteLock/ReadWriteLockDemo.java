@@ -1,4 +1,4 @@
-package top.liuliyong.testconcurrency.capture3.ReadWriteLock;
+package top.liuliyong.testconcurrency.chapter3.readWriteLock;
 
 import java.util.Random;
 import java.util.concurrent.locks.Lock;

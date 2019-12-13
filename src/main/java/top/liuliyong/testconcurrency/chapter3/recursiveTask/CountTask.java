@@ -1,4 +1,4 @@
-package top.liuliyong.testconcurrency.capture3.RecursiveTask;
+package top.liuliyong.testconcurrency.chapter3.recursiveTask;
 
 import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;

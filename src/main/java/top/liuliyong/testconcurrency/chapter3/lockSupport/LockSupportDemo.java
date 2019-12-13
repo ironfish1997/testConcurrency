@@ -1,4 +1,4 @@
-package top.liuliyong.testconcurrency.capture3.LockSupport;
+package top.liuliyong.testconcurrency.chapter3.lockSupport;
 
 import java.util.concurrent.locks.LockSupport;
 

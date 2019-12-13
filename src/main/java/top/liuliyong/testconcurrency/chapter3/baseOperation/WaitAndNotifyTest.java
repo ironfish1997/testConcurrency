@@ -1,4 +1,4 @@
-package top.liuliyong.testconcurrency.capture3.baseOperation;
+package top.liuliyong.testconcurrency.chapter3.baseOperation;
 
 /**
  * 测试wait和notify的使用方法
