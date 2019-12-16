@@ -21,7 +21,11 @@ public class LockSupportDemo {
             synchronized (u) {
                 System.out.println("in " + getName());
                 LockSupport.park();
+                if (Thread.interrupted()) {
+                    System.out.println(getName() + "被中断了");
+                }
             }
+            System.out.println(getName() + "执行结束");
         }
     }
 
@@ -29,7 +33,9 @@ public class LockSupportDemo {
         t1.start();
         Thread.sleep(100);
         t2.start();
-        LockSupport.unpark(t1);
+//        LockSupport.unpark(t1);
+//        LockSupport.unpark(t2);
+        t1.interrupt();
         LockSupport.unpark(t2);
         t1.join();
         t2.join();
